@@ -2,9 +2,14 @@
 
 # Predict 10th hour PM2.5
 18 feature\
-train.csv:data in 20 days each month\
-test.csv: data in 9 hours 
-
+-train.csv:data in 20 days each month\
+-test.csv: data in 9 hours \
+-playground.ipynb: some experiments and original explain from TA\
+-main.py: training model to generate "model.npz"\
+-model.npz: including model, std ane mean from main.py\
+-hw1.py: load test.cvs and model.npz to predict ans.csv\
+-hw1.sh: script for hw1.py\
+e.g. hw1.sh /data/test.csv /data/ans.csv\
 
 ## The relation between learning rate and iteration times:
   - If learning rate is too big, the value of loss might go up.\
